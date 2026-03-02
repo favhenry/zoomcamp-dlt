@@ -30,8 +30,7 @@ After setup, the pipeline processes NYC Taxi data and builds a dashboard of inge
 
 > _Screenshot proof below:_
 
-![Data_tripdata](https://github.com/favhenry/docker-workshop-2026/blob/main/04-Analytics%20Engineering/images/Module%205%20Successful%20run%20diagram.PNG)
-![Data_tripdata](https://github.com/favhenry/docker-workshop-2026/blob/main/04-Analytics%20Engineering/images/Module%205%20lineage%20diagram.PNG)
+![Data_tripdata](https://github.com/favhenry/zoomcamp-dlt/blob/main/images/Modulw%20workshop%20dlt%20pipeline.PNG)
 
 
 
@@ -54,6 +53,9 @@ SELECT
 FROM taxi_data;
 ``` 
 
+> _Screenshot proof below:_
+
+![Data_tripdata](https://github.com/favhenry/zoomcamp-dlt/blob/main/images/Module%20workshop%201.PNG)
 ---
 
 ## 2. Question 2: Proportion of Credit Card Trips
@@ -75,7 +77,11 @@ SELECT
         2
     ) AS credit_card_percentage
 FROM taxi_data;
-``` 
+```
+> _Screenshot proof below:_
+
+![Data_tripdata](https://github.com/favhenry/zoomcamp-dlt/blob/main/images/Module%20workshop%202.PNG)
+---
 ---
 
 ## 3. Question 3. Total Tips Generated
@@ -92,6 +98,9 @@ What is the total amount of money generated in tips?
 SELECT ROUND(SUM(tip_amount), 2)
 FROM taxi_data;
 ``` 
+> _Screenshot proof below:_
 
+![Data_tripdata](https://github.com/favhenry/zoomcamp-dlt/blob/main/images/Module%20workshop%203.PNG)
+---
 ---
 
